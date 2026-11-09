@@ -10908,8 +10908,8 @@
         "zh": "文溯"
       },
       "description": {
-        "en": "Connect the wensu stdio MCP server for CNKI bibliographic search, details, export and status, without full-text downloads. Requires Windows, Python 3.11+, wensu on PATH, and a separately configured Edge or Chrome extension and native host.",
-        "zh": "接入文溯 stdio MCP，提供知网题录检索、详情、导出与状态查询，不下载全文。需要 Windows、Python 3.11+、PATH 中的 wensu 命令，并另行配置 Edge/Chrome 扩展和原生宿主。"
+        "en": "Connect the wensu stdio MCP server for read-only bibliographic search over two channels: CNKI and Web of Science. Keyword and fielded queries, paging, sorting, single-record details, and RIS/EndNote export; Web of Science records carry their impact factor, which can be filtered and sorted locally. No full-text downloads. Requires Windows, Python 3.11+, wensu on PATH, plus wensu setup for the native host and a one-time browser extension load.",
+        "zh": "接入文溯 stdio MCP，提供知网与 Web of Science 两条渠道的只读题录检索：关键词与专业检索式、翻页、排序、单篇详情、RIS/EndNote 导出；WoS 记录自带期刊影响因子，可按影响因子本地筛选与排序。不下载全文。需要 Windows、Python 3.11+、PATH 中的 wensu 命令，并运行 wensu setup 安装原生宿主、在 Edge/Chrome 加载一次扩展。"
       },
       "category": "knowledge"
     },
